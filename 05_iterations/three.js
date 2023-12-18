@@ -23,12 +23,18 @@ map.set('Pak', "Pakistan")
 map.set('IN', "India")
 console.log(map);
 for (const key of map) {
-    console.log(key);
+   console.log(key);
 }
-for (const key,  of map) {
-    console.log(key);
+for (const [key, value]  of map) {
+   // console.log(key, ':-', value);
 }
-
+// const myObj = {
+//     'game1': 'nfs',
+//     'game2': 'cs'
+// }
+// for (const [key, value] of myObj) {
+//     console.log(key, ':-', value);
+// }
 
 
 
